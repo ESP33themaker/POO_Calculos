@@ -18,7 +18,7 @@ public class Calculos {
         int suma=0;
         for (int i=x; i<=y; i++)
             suma=suma+i;
-        return suma;    
+        return suma;
     }
 
     /**
