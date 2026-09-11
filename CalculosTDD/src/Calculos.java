@@ -41,7 +41,20 @@ public class Calculos {
      * @return cantidad de vocales
      */
     int vocales(String texto) {
-        throw new UnsupportedOperationException("En construcción.");
+        int contador = 0;
+    
+        String textoMinusculas = texto.toLowerCase();
+    
+        for (int i = 0; i < textoMinusculas.length(); i++) {
+        char letra = textoMinusculas.charAt(i);
+        
+        if (letra == 'a' || letra == 'e' || letra == 'i' 
+            || letra == 'o' || letra == 'u') {
+            contador++;
+        }
+    }
+    
+    return contador;
     }
 
     /**
