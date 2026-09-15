@@ -18,7 +18,11 @@ public class Calculos {
         int suma=0;
         for (int i=x; i<=y; i++)
             suma=suma+i;
+<<<<<<< HEAD
         return suma;
+=======
+        return suma;    
+>>>>>>> feature/sumarSerie
     }
 
     /**
